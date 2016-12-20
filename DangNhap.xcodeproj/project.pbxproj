@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610012F91E06F2940005825D /* Background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 610012F81E06F2940005825D /* Background1.jpg */; };
 		61F564101E06E8C7003478B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F5640F1E06E8C7003478B5 /* AppDelegate.swift */; };
 		61F564121E06E8C7003478B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F564111E06E8C7003478B5 /* ViewController.swift */; };
 		61F564151E06E8C7003478B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F564131E06E8C7003478B5 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		610012F81E06F2940005825D /* Background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background1.jpg; sourceTree = "<group>"; };
 		61F5640C1E06E8C7003478B5 /* DangNhap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DangNhap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F5640F1E06E8C7003478B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61F564111E06E8C7003478B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		610012F71E06F1F10005825D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				610012F81E06F2940005825D /* Background1.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		61F564031E06E8C7003478B5 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		61F5640E1E06E8C7003478B5 /* DangNhap */ = {
 			isa = PBXGroup;
 			children = (
+				610012F71E06F1F10005825D /* Resources */,
 				61F5640F1E06E8C7003478B5 /* AppDelegate.swift */,
 				61F564111E06E8C7003478B5 /* ViewController.swift */,
 				61F564131E06E8C7003478B5 /* Main.storyboard */,
@@ -125,6 +136,7 @@
 				61F5641A1E06E8C7003478B5 /* LaunchScreen.storyboard in Resources */,
 				61F564171E06E8C7003478B5 /* Assets.xcassets in Resources */,
 				61F564151E06E8C7003478B5 /* Main.storyboard in Resources */,
+				610012F91E06F2940005825D /* Background1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				61F564201E06E8C7003478B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
